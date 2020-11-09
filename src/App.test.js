@@ -1,6 +1,5 @@
 import React from "react";
-import { render, screen, fireEvent, wait } from "@testing-library/react";
-import userEvent from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import App from "./App"
 
 test("App renders without errors.", () => {
